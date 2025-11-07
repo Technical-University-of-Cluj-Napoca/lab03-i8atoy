@@ -66,9 +66,13 @@ if __name__ == "__main__":
                         for spot in row:
                             spot.update_neighbors(grid.grid)
                     # here you can call the algorithms
-                    # bfs(lambda: grid.draw(), grid, start, end)
-                    # dfs(lambda: grid.draw(), grid, start, end)
-                    # astar(lambda: grid.draw(), grid, start, end)
+                    #bfs(lambda: grid.draw(), grid, start, end)
+                    #dfs(lambda: grid.draw(), grid, start, end)
+                    #astar(lambda: grid.draw(), grid, start, end)
+                    #dls(lambda: grid.draw(), grid, start, end, 25)
+                    #ucs(lambda: grid.draw(), grid, start, end)
+                    #greedy(lambda: grid.draw(), grid, start, end)
+                    ids(lambda: grid.draw(), grid, start, end)
                     # ... and the others?
                     started = False
 
